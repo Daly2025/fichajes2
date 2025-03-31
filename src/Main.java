@@ -84,7 +84,7 @@ ____________________________________________________________
                             String fecha_informe=leer.nextLine();
                             LocalDate localDate=LocalDate.parse(fecha_informe, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
                             mostrarRegistros(fichajes.informe_por_dia(localDate));
-                        break;
+                            break;
                         case "2":
                             System.out.println("DNI Alumn@:");
                             dni=leer.nextLine();
@@ -96,7 +96,7 @@ ____________________________________________________________
                         default:
                             System.out.println("Opción no válida");
                     }
-                break;
+                    break;
                 case "4":
 
                     System.out.println("Hasta la próxima");
